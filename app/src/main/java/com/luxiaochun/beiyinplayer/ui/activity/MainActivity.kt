@@ -1,7 +1,8 @@
-package com.luxiaochun.beiyinplayer
+package com.luxiaochun.beiyinplayer.ui.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.luxiaochun.beiyinplayer.R
 
 class MainActivity : AppCompatActivity() {
 
