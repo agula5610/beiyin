@@ -1,8 +1,10 @@
-package com.luxiaochun.widget
+package com.luxiaochun.beiyinplayer.widget
 
 import android.content.Context
 import android.util.AttributeSet
+import android.view.View
 import android.widget.RelativeLayout
+import com.luxiaochun.beiyinplayer.R
 
 class HomeItemView:RelativeLayout{
     constructor(context: Context?) : super(context)
@@ -13,6 +15,6 @@ class HomeItemView:RelativeLayout{
      * 初始化的方法
      */
     init {
-
+        View.inflate(context, R.layout.item_home,this)
     }
 }

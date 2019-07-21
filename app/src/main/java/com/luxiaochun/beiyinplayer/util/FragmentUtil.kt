@@ -26,10 +26,10 @@ class FragmentUtil private constructor() { //私有化构造方法
      */
     fun getFragment(tabdId: Int): BaseFragment? {
         when (tabdId) {
-            R.id.tab_home -> homeFragment
-            R.id.tab_mv -> mVFragment
-            R.id.tab_vbang -> vBangFragment
-            R.id.tab_yuedan -> yueDanFragment
+            R.id.tab_home -> return homeFragment
+            R.id.tab_mv -> return mVFragment
+            R.id.tab_vbang -> return vBangFragment
+            R.id.tab_yuedan -> return yueDanFragment
         }
         return null
     }
