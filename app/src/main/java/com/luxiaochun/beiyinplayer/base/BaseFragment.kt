@@ -38,13 +38,13 @@ abstract class BaseFragment : Fragment() {
     /**
      * 数据的初始化
      */
-    protected fun initData() {
+    open protected fun initData() {
     }
 
     /**
      * adapter 和listener 相关的操作
      */
-    protected fun initListener() {
+    open protected fun initListener() {
     }
 
     protected fun myToast(msg: String) {
