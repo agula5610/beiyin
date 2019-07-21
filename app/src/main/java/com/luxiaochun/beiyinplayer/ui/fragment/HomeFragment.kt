@@ -30,7 +30,7 @@ class HomeFragment : BaseFragment() {
     }
 
     private fun loadDatas() {
-        val path = URLProviderUtils.getYueDanUrl(0, 20)
+        val path = URLProviderUtils.getHomeUrl(0, 20)
         val client = OkHttpClient()
         val request = Request.Builder().url(path).get().build()
         client.newCall(request).enqueue(object : Callback {
